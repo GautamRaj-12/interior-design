@@ -99,7 +99,8 @@ header {
 }
 .services h2 span,
 .about-us h2 span,
-.contact-us h2 span {
+.contact-us h2 span,
+.gallery h2 span {
   color: #ff565b;
 }
 .card-text {
@@ -120,6 +121,9 @@ header {
 }
 
 /*----------------------- Contact Us Section ---------------------------*/
+.contact-flex{
+	display:flex;
+}
 .profile {
   border-radius: 50%;
 }
@@ -145,6 +149,7 @@ header {
 .img-container img {
   width: 250px;
   height: 150px;
+  border:5px double #ff565b;
   object-fit: cover;
 }
 /*Testimonials Section*/
