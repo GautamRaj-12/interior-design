@@ -91,6 +91,7 @@ header {
 /*----------------------- Services Section ----------------------------*/
 .card {
   overflow: hidden;
+  height: 34rem;
   border-radius: 14px 80px 14px 60px;
 }
 .services h2 {
@@ -121,20 +122,45 @@ header {
 }
 
 /*----------------------- Contact Us Section ---------------------------*/
-.contact-flex{
+.contact-us-container{
+	/* background-color: #ff565b; */
 	display:flex;
+	flex-direction: column;
+	
+}
+.contact-details{
+	display: flex;
+	justify-content: space-around;
 }
 .profile {
+	height:9rem;
+	width:9rem;
+	
   border-radius: 50%;
 }
+.fa-id-card-clip,.fa-mobile-screen,.fa-envelope{
+	font-size: 1.5rem;
+	margin:0 0.5rem 1rem 0;
+}
+.phone-name,.phone-number,.email{
+	font-size: 1.1rem;
+	font-weight:700;
+	font-family: Macondo;
+}
+
 .fa-whatsapp {
   color: #34c049;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
 }
 .fa-phone-alt {
   color: #002d62;
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   margin-right: 2rem;
+}
+.form{
+	margin-top:1.5rem;
+	font-size:1.5rem;
+	font-weight:700;
 }
 /* Gallery Section */
 .gallery-box {

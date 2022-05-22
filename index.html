@@ -31,12 +31,14 @@
     <title>Indian Housing Services</title>
 
     <!-- Styles -->
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- Font Awesome cdn CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -45,27 +47,45 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- Custom Style Sheet -->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- FONT - Open Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- FONT - Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
       rel="stylesheet"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- FONT - Macondo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.svg" />
+
+    <!-- Lightbox CSS - for Image Gallery -->
     <link rel="stylesheet" href="css/lightbox.css" />
+
+    <!-- Font Awesome cdn CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
@@ -73,6 +93,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Swiper Js cdn for Review Carousel -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.5/swiper-bundle.min.css"
@@ -80,13 +102,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <!-- Animate on Scroll Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
   <body>
@@ -130,7 +147,7 @@
       </nav>
       <!------------------------- Hero Section inside Header ----------------------->
       <section class="hero">
-        <h1 ><span>Packers</span> & Movers</h1>
+        <h1><span>Packers</span> & Movers</h1>
         <h2>We Design, pack and move so that you can continue</h2>
         <a class="see-services" href="#">See Services</a>
       </section>
@@ -142,7 +159,7 @@
         <h3 class="text-center">Packers and Movers</h3>
         <div class="row g-3">
           <!-- card-1 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
             <div class="card">
               <img
                 src="/images/house-relocation.jpg"
@@ -163,7 +180,7 @@
             </div>
           </div>
           <!-- card-2 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-down">
             <div class="card">
               <img
                 src="/images/office-relocation.jpg"
@@ -173,28 +190,28 @@
               <div class="card-body text-center">
                 <h5 class="card-title">Office Relocation</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Odit, molestiae. Est, quos sapiente dolor voluptatibus commodi
-                  veniam repudiandae nihil minus. Nemo distinctio, odio
-                  perferendis excepturi illum quod, sequi aspernatur laboriosam
-                  tempore eius nesciunt nam recusandae enim quae quaerat.
+                  Relocation to a new office can be a pain because of all the
+                  office furnitures and documents to be shifted from one place
+                  to another. But we have got you covered. We ensure safe and
+                  hassle free relocation by expert personnel and we do it fast
+                  so that your work does not stop.
                 </p>
                 <a class="btn btn-danger" href="#">Contact Now</a>
               </div>
             </div>
           </div>
           <!-- card-3 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
             <div class="card">
               <img src="/images/car-carrier.jpg" alt="" class="card-img-top" />
               <div class="card-body text-center">
                 <h5 class="card-title">Car Carrier Services</h5>
                 <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Vitae recusandae quae laborum nesciunt, architecto earum saepe
-                  rerum alias dolores blanditiis, vero perspiciatis porro
-                  voluptatibus iste eveniet laboriosam ea. Quasi doloremque
-                  sequi earum eos non ex? Quae, maxime recusandae!
+                  Need help relocating a car? We at Indian Housing Services
+                  provide time-saving and quick services at the most economical
+                  prices in Kolkata which makes us one of the best car carrier
+                  service providers in Kolkata.We assure you of scratch-free,
+                  time-saving, and quick car moving services.
                 </p>
                 <a class="btn btn-danger" href="#">Contact Now</a>
               </div>
@@ -202,7 +219,7 @@
           </div>
           <!-- card-4 -->
           <h3 class="text-center">Carpentry Work</h3>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
             <div class="card">
               <img
                 src="/images/carpentry-work.jpg"
@@ -212,31 +229,35 @@
               <div class="card-body text-center">
                 <h5 class="card-title">Repairing</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Architecto consequatur eos quo ipsam velit voluptas,
-                  consectetur vitae laborum minima repellendus!
+                  So some of your furniture has got damaged or broken and you
+                  are wondering how are you going to get it fixed. No need to
+                  worry as our skilled workers can get it fixed precisely and at
+                  a very affordable cost. Our services are incredibly excellent
+                  due to quick solution of your problem.
                 </p>
                 <a class="btn btn-danger" href="#">Contact Now</a>
               </div>
             </div>
           </div>
           <!-- card-5 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="card">
               <img src="/images/wardrobe.jpg" alt="" class="card-img-top" />
               <div class="card-body text-center">
                 <h5 class="card-title">Wardrobe</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Architecto consequatur eos quo ipsam velit voluptas,
-                  consectetur vitae laborum minima repellendus!
+                  Wardrobe is an important part of modern house. We at Indian
+                  Housing Services provide building of modern looking wardrobes
+                  at surprisingly low costs. All kinds of wardrobes and that too
+                  as per your wish are built with utmost precision and at a
+                  speed that is incomparable.
                 </p>
                 <a class="btn btn-danger" href="#">Contact Now</a>
               </div>
             </div>
           </div>
           <!-- card-6 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
             <div class="card">
               <img
                 src="/images/other-carpentry.jpg"
@@ -246,9 +267,11 @@
               <div class="card-body text-center">
                 <h5 class="card-title">Others</h5>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Architecto consequatur eos quo ipsam velit voluptas,
-                  consectetur vitae laborum minima repellendus!
+                  We offer other kinds of carpentry services that include
+                  building RACKS, STUDY TABLES, COMPUTER TABLE, BOOK SHELVES
+                  etc. Everything is built according to your need by our
+                  professional workers. Sharp and excellent quality tools are
+                  used to ensure accuracy abd safety.
                 </p>
                 <a class="btn btn-danger" href="#">Contact Now</a>
               </div>
@@ -256,7 +279,7 @@
           </div>
           <!-- card-7 -->
           <h3 class="text-center">Electric Work</h3>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
             <div class="card">
               <img
                 src="/images/air-conditioner.jpg"
@@ -275,7 +298,7 @@
             </div>
           </div>
           <!-- card-8 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-down">
             <div class="card">
               <img src="/images/fridge.jpg" alt="" class="card-img-top" />
               <div class="card-body text-center">
@@ -290,7 +313,7 @@
             </div>
           </div>
           <!-- card-9 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
             <div class="card">
               <img
                 src="/images/electric-work.jpg"
@@ -310,7 +333,7 @@
           </div>
           <!-- card-10 -->
           <h3 class="text-center">Cleaning Work</h3>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
             <div class="card">
               <img src="/images/house-clean.jpg" alt="" class="card-img-top" />
               <div class="card-body text-center">
@@ -325,7 +348,7 @@
             </div>
           </div>
           <!-- Card-11 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
             <div class="card">
               <img src="/images/washroom.jpg" alt="" class="card-img-top" />
               <div class="card-body text-center">
@@ -340,7 +363,7 @@
             </div>
           </div>
           <!-- Card-12 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
             <div class="card">
               <img src="/images/kitchen.jpg" alt="" class="card-img-top" />
               <div class="card-body text-center">
@@ -358,14 +381,14 @@
       </div>
     </section>
     <!-- -------------------About Us Section----------------------- -->
-    <section class="about-us">
+    <section class="about-us mb-4">
       <h2 class="text-center">About <span>Us</span></h2>
-      <div class="about-us-image container">
-        <img src="/images/about-us-image.jpg" alt="" />
-      </div>
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div class="about-us-image col-md-6" data-aos="fade-right">
+            <img src="/images/about-us-image.jpg" alt="" />
+          </div>
+          <div class="col-md-6">
             <p class="about-us-text p-2">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Repudiandae voluptates architecto at suscipit voluptate aut,
@@ -385,30 +408,78 @@
       <h2 class="text-center">Contact <span>Us</span></h2>
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 text-center">
-            <div><img class="profile" src="/images/human.jpg" alt="" /></div>
-            <i class="fa-solid fa-id-card-clip"></i>
-            <span class="phone-name">Rohit Sharma</span>
-            <div>
-            <i class="fa-solid fa-mobile-screen"></i>
-            <span>+916289108116</span>
-          </div>
-            <a href="tel:6289108116" class="phone-sankar"
-              ><i class="fas fa-phone-alt"></i
-            ></a>
-            <a href="whatsapp://send?text=Hello World!&phone=+916289108116"
-              ><i class="fab fa-whatsapp"></i>
-            </a>
-            <div>
-              <i class="fa-solid fa-envelope"></i>
-              <span>Email: housingservices07@gmail.com</span>
+          <div class="col-sm-6 contact-us-container">
+            <div class="contact-details">
+              <div>
+                <img class="profile" src="/images/rohit-sharma.jpg" alt="" />
+              </div>
+              <div>
+                <div>
+                  <i class="fa-solid fa-id-card-clip"></i>
+                  <span class="phone-name">Rohit Sharma</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  <span class="phone-number">+916289108116</span>
+                </div>
+                <a href="tel:6289108116" class="phone-sankar"
+                  ><i class="fas fa-phone-alt"></i
+                ></a>
+                <a href="whatsapp://send?text=Hello World!&phone=+916289108116"
+                  ><i class="fab fa-whatsapp"></i>
+                </a>
+                <div>
+                  <i class="fa-solid fa-envelope"></i>
+                  <span class="email">housingservices07@gmail.com</span>
+                </div>
+              </div>
             </div>
+            <div class="form text-center">Have any Enquiry? Message Us</div>
+            <form
+              class="row g-3"
+              action="https://formsubmit.co/gautamraj996@gmail.com"
+              method="POST"
+            >
+              <div class="col-12">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="fullName"
+                  id="fullName"
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <label for="emailId" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  name="emailId"
+                  id="emailId"
+                  required
+                />
+              </div>
+              <div class="col-12">
+                <label for="messages" class="form-label">Message</label>
+                <textarea
+                  id="messages"
+                  rows="3"
+                  class="form-control"
+                  name="messages"
+                  required
+                ></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-danger">Submit</button>
+              </div>
+            </form>
           </div>
-          <div class="col-sm-6 text-center hhh">
+          <div class="col-sm-6 text-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d460.66561409121675!2d88.35292753026171!3d22.529498400363053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277b2af3c12d9%3A0xd85780c60c0f5b7e!2sBeltala%20Motor%20Vehicle%20*2APAL%20XEROX*2A!5e0!3m2!1sen!2sin!4v1653032735214!5m2!1sen!2sin"
               width="100%"
-              height="450"
+              height="100%"
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
@@ -670,6 +741,13 @@
     ></script>
     <script src="js/lightbox-plus-jquery.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
     <script>
       var loader = document.getElementById("preloader");
       window.addEventListener("load", function () {
