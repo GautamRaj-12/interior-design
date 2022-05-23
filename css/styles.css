@@ -8,7 +8,7 @@ a {
 }
 /* Preloader */
 #preloader {
-  background: #fff url(../images/Preloader.gif) no-repeat center;
+  background: #fff url(../images/Preloader1.svg) no-repeat center;
   height: 100vh;
   width: 100%;
   position: fixed;
