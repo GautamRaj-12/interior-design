@@ -124,35 +124,46 @@ header {
 /*----------------------- Contact Us Section ---------------------------*/
 .contact-us-container{
 	/* background-color: #ff565b; */
-	margin-top:1.5rem;
+	/* margin-top:1.5rem; */
 	display:flex;
 	flex-direction: column;
-	border-radius: 50px;
+	/* border-radius: 50px;
 background: #faf5f5;
 box-shadow:  20px 20px 60px #d5d0d0,
-             -20px -20px 60px #ffffff;
+             -20px -20px 60px #ffffff; */
 	
 }
-.contact-details{
+/* .contact-details{
 	display: flex;
 	justify-content: space-around;
 	margin-top:0.5rem
 
-}
+} */
 .profile {
-	height:9rem;
-	width:9rem;
+	height:7rem;
+	width:7rem;
 	
   border-radius: 50%;
 }
 .fa-id-card-clip,.fa-mobile-screen,.fa-envelope{
 	font-size: 1.5rem;
-	margin:0 0.5rem 1rem 0;
+	margin:0 0.5rem 0.5rem 0;
+}
+.owner-name,.call-us,.mail-us{
+	font-size: 1.2rem;
+	font-weight:700;
+	font-family: 'Dancing Script', cursive;
+	font-weight: 900;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
 }
 .phone-name,.phone-number,.email{
-	font-size: 1.1rem;
-	font-weight:700;
-	font-family: Macondo;
+	font-size: 1.2rem;
+	margin:0 0 1rem 2.2rem;
+	font-style:oblique;
+}
+.call-now,.whatsapp-now{
+	font-size: 1.5rem;
 }
 
 .fa-whatsapp {
@@ -161,6 +172,7 @@ box-shadow:  20px 20px 60px #d5d0d0,
 }
 .fa-phone-alt {
   color: #002d62;
+  /* color:#ff565b; */
   font-size: 1.5rem;
   margin-right: 2rem;
 }
@@ -432,4 +444,10 @@ footer{
   text-transform: uppercase;
   letter-spacing: 5px;
   padding: 1rem;
+}
+/* Media Queries */
+@media only screen and (max-width: 530px) {
+  .img-container,.img-container img{
+    width:100%;
+  }
 }
