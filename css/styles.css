@@ -124,13 +124,20 @@ header {
 /*----------------------- Contact Us Section ---------------------------*/
 .contact-us-container{
 	/* background-color: #ff565b; */
+	margin-top:1.5rem;
 	display:flex;
 	flex-direction: column;
+	border-radius: 50px;
+background: #faf5f5;
+box-shadow:  20px 20px 60px #d5d0d0,
+             -20px -20px 60px #ffffff;
 	
 }
 .contact-details{
 	display: flex;
 	justify-content: space-around;
+	margin-top:0.5rem
+
 }
 .profile {
 	height:9rem;
@@ -162,7 +169,23 @@ header {
 	font-size:1.5rem;
 	font-weight:700;
 }
+.btn{
+	margin-bottom:0.5rem;
+
+}
+.address-title{
+	margin-top: 1rem;
+	font-size: 2rem;
+	font-family: monospace;
+}
+.address-details{
+	font-family: monospace;
+	font-size: 1.3rem;
+}
 /* Gallery Section */
+.gallery{
+	margin-top:1.5rem;
+}
 .gallery-box {
   /* background-color: #ff565b; */
   display: flex;
