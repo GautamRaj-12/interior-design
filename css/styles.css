@@ -94,7 +94,7 @@ header {
   height: 34rem;
   border-radius: 14px 80px 14px 60px;
 }
-.services h2 {
+.services h2,.about-us h2,.contact-us h2,.gallery h2 {
   font-weight: 700;
   letter-spacing: 0.3rem;
 }
@@ -112,6 +112,10 @@ header {
 }
 
 /*----------------------- About Us Section ----------------------------*/
+.about-us h2{
+	font-weight: 700;
+	letter-spacing: 0.3rem;
+}
 .about-us-text {
   text-align: justify;
 }
@@ -120,30 +124,23 @@ header {
   height: 35rem;
   border-radius: 30px;
 }
+.accordion{
+	margin-top: 3rem;
+}
 
 /*----------------------- Contact Us Section ---------------------------*/
-.contact-us-container{
-	/* background-color: #ff565b; */
-	/* margin-top:1.5rem; */
+.contact-us-container{	
 	display:flex;
-	flex-direction: column;
-	/* border-radius: 50px;
-background: #faf5f5;
-box-shadow:  20px 20px 60px #d5d0d0,
-             -20px -20px 60px #ffffff; */
-	
+	flex-direction: column;		
 }
-/* .contact-details{
-	display: flex;
-	justify-content: space-around;
-	margin-top:0.5rem
-
-} */
+.card-contact-us{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .profile {
+	margin-top: 0.2rem;
 	height:7rem;
-	width:7rem;
-	
-  border-radius: 50%;
+	width:7rem;	
+    border-radius: 50%;
 }
 .fa-id-card-clip,.fa-mobile-screen,.fa-envelope{
 	font-size: 1.5rem;
