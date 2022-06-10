@@ -447,4 +447,8 @@ footer{
   .img-container,.img-container img{
     width:100%;
   }
+  .see-services{
+	font-size:0.8rem;
+	font-weight:700;
+  }
 }
