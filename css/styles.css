@@ -175,12 +175,12 @@ header {
 .fa-whatsapp {
   color: #34c049;
   font-size: 1.5rem;
+  margin-left: 0.3rem;
 }
 .fa-phone-alt {
   color: #002d62;
-  /* color:#ff565b; */
+  margin-left: 0.3rem;
   font-size: 1.5rem;
-  margin-right: 2rem;
 }
 .form{
 	margin-top:1.5rem;
@@ -198,6 +198,20 @@ header {
 }
 .address-details{
 	font-family: monospace;
+	font-size: 1.3rem;
+}
+.unique-label label{
+	padding: 0.5rem;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	
+}
+.now-icons{
+	display: flex;
+	flex-direction: column;
+}
+.now-icons a{
+	color:inherit;
+	font-family: 'Dancing Script', cursive;
 	font-size: 1.3rem;
 }
 /* Gallery Section */
