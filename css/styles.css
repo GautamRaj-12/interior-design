@@ -87,7 +87,15 @@ header {
   margin-bottom: 0.5rem;
   margin-right: 1rem;
 }
-
+/* ---------------------- Discount Offer ----------------------------- */
+.discount-offer-full-container{
+	background-color:papayawhip;
+}
+.discount-offer{
+	font-size: 1.5rem;
+	margin-top: 0.5rem;
+	font-family: 'Dancing Script', cursive;
+}
 /*----------------------- Services Section ----------------------------*/
 .card {
   overflow: hidden;
@@ -443,6 +451,35 @@ footer{
   padding: 1rem;
 }
 /* Media Queries */
+@media only screen and (max-width: 768px) {
+	.discount-offer span img{
+		width:150px;
+	}
+}
+@media only screen and (max-width: 545px) {
+	.discount-offer span img{
+		width:120px;
+	}
+	.discount-offer{
+		font-size: 1.2rem	;
+	}
+}
+@media only screen and (max-width: 446px) {
+	.discount-offer span img{
+		width:100px;
+	}
+	.discount-offer{
+		font-size: 1rem	;
+	}
+}
+@media only screen and (max-width: 380px) {
+	.discount-offer span img{
+		width:70px;
+	}
+	.discount-offer{
+		font-size: 1rem	;
+	}
+}
 @media only screen and (max-width: 530px) {
   .img-container,.img-container img{
     width:100%;
