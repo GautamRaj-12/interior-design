@@ -2,375 +2,719 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indian Housing Services</title>  
 
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Your description" />
-  <meta name="author" content="Your name" />
+   <!--
+       ====================
+       Font Awesome cdn CSS
+       ====================  
+    -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+   integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-  <meta property="og:site_name" content="Indian Housing Services" />
-  <!-- website name -->
-  <meta property="og:site" content="" />
-  <!-- website link -->
-  <meta property="og:title" content="" />
-  <!-- title shown in the actual shared post -->
-  <meta property="og:description" content="" />
-  <!-- description shown in the actual shared post -->
-  <meta property="og:image" content="" />
-  <!-- image link, make sure it's jpg -->
-  <meta property="og:url" content="" />
-  <!-- where do you want your post to link to -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <!-- to have large image post format in Twitter -->
+  <!--
+       ====================
+       Bootstrap cdn CSS
+       ====================  
+    -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 
-  <!-- Webpage Title -->
-  <title>Indian Housing Services</title>
-
-  <!-- Styles -->
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-  <!-- Font Awesome cdn CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- Custom Style Sheet -->
+    <!--
+       ====================
+       Custom CSS
+       ====================  
+    -->
   <link rel="stylesheet" href="css/styles.css" />
 
-  <!-- FONT - Open Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
-  <!-- FONT - Montserrat -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet" />
+    <!--
+       ====================
+       Lightbox css for image gallery
+       ====================  
+    -->
+    <link rel="stylesheet" href="css/lightbox.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
-  <!-- FONT - Dancing Script -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="/images/favicon.svg" />
-
-  <!-- Lightbox CSS - for Image Gallery -->
-  <link rel="stylesheet" href="css/lightbox.css" />
-
-  <!-- Font Awesome cdn CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css"
-    integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- Swiper Js cdn for Review Carousel -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.5/swiper-bundle.min.css"
-    integrity="sha512-RyWEjocspIhBBPE3rxKpuvnNYGRUaEhVoTTzgLqn7/sn8dGsfsSuijgripWipxHIbuu/daqTzm+v7zP5Q/PIdQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Animate on Scroll Library -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
 </head>
 
 <body>
-  <!-- Preloader -->
-  <div id="preloader"></div>
-  <!-- Header -->
-  <header>
-    <!--------------------- Navigation --------------------------->
-    <nav class="navbar navbar-expand-md navbar-custom">
-      <div class="container">
-        <a href="" class="navbar-brand"><img src="/images/Logo.svg" width="200" height="50" alt="" /></a>
-        <button class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon navbar-dark"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Us</a>
-            </li>
-          </ul>
+
+  <!--
+       ====================
+            Header
+       ====================  
+   -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="nav-row align-items-center justify-content-between">
+        <div class="logo">
+          <a href="#"><img src="images/LOGO.svg" class="logo-img" alt="" /></a>
         </div>
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <!--
+       ====================
+       Navbar
+       ====================  
+         -->
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </nav>
-    <!------------------------- Hero Section inside Header ----------------------->
-    <section class="hero">
-      <h1><span>Packers</span> & Movers</h1>
-      <h2>We Design, pack and move so that you can continue</h2>
-      <a class="see-services" href="#services">See Services</a>
-    </section>
+    </div>
   </header>
-  <!-- Discount Offer -->
+
+  <!--
+       ====================
+              Hero
+       ====================  
+   -->
+  <section class="hero">
+    <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <!--
+             ====================
+                  First Slide
+             ====================  
+          -->
+          <div
+            class="carousel-item active"
+            style="
+              background-image: linear-gradient(transparent,rgb(0, 0, 0,0.6)),url('images/header-slider/packers-header.webp');
+            "
+          >
+            <div class="carousel-caption">
+              <h5>Packers & <span>Movers</span> </h5>
+              <p>
+                <a href="#services" class="all-services btn">All Services  <i class="fa-solid fa-circle-down"></i></a>
+              </p>
+            </div>
+          </div>
+          <!--
+             ====================
+                  Second Slide
+             ====================  
+          -->
+          <div
+            class="carousel-item"
+            style="
+              background-image: linear-gradient(transparent,rgb(0, 0, 0,0.6)),url('images/header-slider/carpentry-header.webp');
+            "
+          >
+            <div class="carousel-caption">
+              <h5>Carp<span>entry</span></h5>
+              <p>
+                <a href="#services" class="all-services btn">All Services  <i class="fa-solid fa-circle-down"></i></a>
+              </p>
+            </div>
+          </div>
+          <!--
+             ====================
+                  Third Slide
+             ====================  
+          -->
+          <div
+            class="carousel-item"
+            style="
+              background-image: linear-gradient(transparent,rgb(0, 0, 0,0.6)),url('images/header-slider/painting-header.webp');
+            "
+          >
+            <div class="carousel-caption">
+              <h5>Pain<span>ting</span></h5>
+              <p>
+                <a href="#services" class="all-services btn">All Services  <i class="fa-solid fa-circle-down"></i></a>
+              </p>
+            </div>
+          </div>
+          <!--
+             ====================
+                  Fourth Slide
+             ====================  
+          -->
+          <div
+            class="carousel-item"
+            style="
+              background-image: url('images/header-slider/false-ceiling-header.webp');
+            "
+          >
+            <div class="carousel-caption">
+              <h5>False <span>Ceiling</span></h5>
+              <p>
+                <a href="#services" class="all-services btn">All Services  <i class="fa-solid fa-circle-down"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+  <!--
+    ====================
+      Discount Offer
+    ====================  
+  -->
   <div class="container-fluid discount-offer-full-container">
-    <div class="container discount-offer text-center">Get <span><img src="images/discount1.svg"></span> Discount on your
-      first Order</div>
+    <div class="container discount-offer text-center">
+      Get <span><img src="images/discount1.svg" /></span> Discount on your
+      first Order
+    </div>
   </div>
-  <!-- -------------------Services Section----------------------- -->
-  <section class="services py-5" id="services">
-    <h2 class="text-center">Serv<span>ices</span></h2>
+
+  <!--
+    ====================
+        Services
+    ====================  
+  -->
+  <section class="services" id="services">
+    <h2 class="text-center mt-5">Serv<span>ices</span></h2>
     <span class="section-separator"></span>
     <div class="container">
       <h3 class="text-center">Packers and Movers</h3>
       <div class="row g-3">
-        <!-- card-1 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+        <!--
+          ====================
+                Card - 1
+          ====================  
+        -->
+        <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/house-relocation.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">House Relocation</h5>
-              <p class="card-text">
-                So you are shifting to a new house? And you don't want to deal
-                with the stress of packing, loading, unloading, unpacking and
-                rearranging your home all by yourself. Then you are at the
-                right place. We offer a smooth and completely safe House
-                Relocation assistance.
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/house-relocation.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">House Relocation</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">  
+              <p class="back-p1">We offer a smooth and completely safe House Relocation assistance.You can choose us because we offer safe and secure service like:</p> 
+              <ul class="card-list">
+                <li class="card-list-items"><i class="fa-solid fa-arrow-right-to-bracket"></i>Packing</li>
+                <li class="card-list-items "><i class="fa-solid fa-arrow-right-to-bracket"></i>Unpacking</li>
+                <li class="card-list-items"><i class="fa-solid fa-arrow-right-to-bracket"></i>Loading</li>
+                <li class="card-list-items "><i class="fa-solid fa-arrow-right-to-bracket"></i>Unloading</li>
+              </ul> 
+              <p class="back-p2">at the best price. So that you can shift hassle free.</p>          
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- card-2 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+        <!--
+          ====================
+                Card - 2
+          ====================  
+        -->
+        <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/office-relocation.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Office Relocation</h5>
-              <p class="card-text">
-                Relocation to a new office can be a pain because of all the
-                office furnitures and documents to be shifted from one place
-                to another. But we have got you covered. We ensure safe and
-                hassle free relocation by expert personnel and we do it fast
-                so that your work does not stop.
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/office-relocation.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Office Relocation</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- card-3 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+         <!--
+          ====================
+                Card - 3
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/car-carrier.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Car Carrier Services</h5>
-              <p class="card-text">
-                Need help relocating a car? We at Indian Housing Services
-                provide time-saving and quick services at the most economical
-                prices in Kolkata which makes us one of the best car carrier
-                service providers in Kolkata.We assure you of scratch-free,
-                time-saving, and quick car moving services.
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/car-carrier.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Car Carrier Services</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- card-4 -->
-        <h3 class="text-center">Carpentry Work</h3>
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
+         <!--
+          ====================
+                Card - 4
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/carpentry-work.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Repairing</h5>
-              <p class="card-text">
-                So some of your furniture has got damaged or broken and you
-                are wondering how are you going to get it fixed. No need to
-                worry as our skilled workers can get it fixed precisely and at
-                a very affordable cost. Our services are incredibly excellent
-                due to quick solution of your problem.
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/carpentry-work.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Repairing</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- card-5 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
+         <!--
+          ====================
+                Card - 5
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/wardrobe.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Wardrobe</h5>
-              <p class="card-text">
-                Wardrobe is an important part of modern house. We at Indian
-                Housing Services provide building of modern looking wardrobes
-                at surprisingly low costs. All kinds of wardrobes and that too
-                as per your wish are built with utmost precision and at a
-                speed that is incomparable.
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/wardrobe.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Wardrobe</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- card-6 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
+         <!--
+          ====================
+                Card - 6
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/other-carpentry.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Others</h5>
-              <p class="card-text">
-                We offer other kinds of carpentry services that include
-                building RACKS, STUDY TABLES, COMPUTER TABLE, BOOK SHELVES
-                etc. Everything is built according to your need by our
-                professional workers. Sharp and excellent quality tools are
-                used to ensure accuracy abd safety.
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/other-carpentry.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Others</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- card-7 -->
-        <h3 class="text-center">Electric Work</h3>
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+         <!--
+          ====================
+                Card - 7
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/air-conditioner.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">AC Repairing and Installation</h5>
-              <p class="card-text">
-                AC getting out of order in a scorching summer day is the worst feeling ever. So if you ever encounter
-                this situation. You can call us for our professional service. We use genuine parts and effcient tools
-                combined with skilled workers to repair the AC and make it work a like new one.
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/air-conditioner.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">AC Repairing and Installation</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- card-8 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+         <!--
+          ====================
+                Card - 8
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/fridge.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Fridge Repairing and Installation</h5>
-              <p class="card-text">
-                Fridge serves multiple purpose and if it stops working creates chaos specially in summer. At Indian
-                Housing Services we provide the best fridge repairing facilities in Kolkata. We have high skilled
-                professionals who take care of all your problems related to fridge at cheapest price.
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/fridge.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Fridge Repairing and Installation</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- card-9 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+         <!--
+          ====================
+                Card - 9
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/electric-work.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Other Appliances</h5>
-              <p class="card-text">
-                We also provide services for all your big and small electrical works such as WIRING, CIRCUIT BOARDS,
-                SWITCH BOARDS, SWITCHES, installation and repair of all these appliances. We also offer MICROWAVE
-                repairing services. You can contact us for any kind of electric repair or installation.
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/electric-work.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Other Electric Works</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- card-10 -->
-        <h3 class="text-center">Cleaning Work</h3>
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
+         <!--
+          ====================
+                Card - 10
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/house-clean.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Full House Cleaning</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto consequatur eos quo ipsam velit voluptas,
-                consectetur vitae laborum minima repellendus!
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/house-clean.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Full house cleaning</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- Card-11 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
+         <!--
+          ====================
+                Card - 11
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/washroom.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Bath Room Cleaning</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto consequatur eos quo ipsam velit voluptas,
-                consectetur vitae laborum minima repellendus!
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/kitchen.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">kitchen Cleaning</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- Card-12 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-left">
+         <!--
+          ====================
+                Card - 12
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/kitchen.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Kitchen Cleaning</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto consequatur eos quo ipsam velit voluptas,
-                consectetur vitae laborum minima repellendus!
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/washroom.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Bath Room Cleaning</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- Card-13 -->
-        <h3 class="text-center">Other Works</h3>
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+         <!--
+          ====================
+                Card - 13
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/kitchen.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Caretaker</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto consequatur eos quo ipsam velit voluptas,
-                consectetur vitae laborum minima repellendus!
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/caretaker.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Person on Rent</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- Card-14 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+         <!--
+          ====================
+                Card - 14
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/kitchen.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">False Ceiling</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto consequatur eos quo ipsam velit voluptas,
-                consectetur vitae laborum minima repellendus!
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/header-slider/false-ceiling-header.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">False Ceiling</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
-        <!-- Card-15 -->
-        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
+         <!--
+          ====================
+                Card - 15
+          ====================  
+        -->
+         <div class="card-container col-12 col-md-6 col-lg-4">
           <div class="card">
-            <img loading="lazy" src="/images/kitchen.jpg" alt="" class="card-img-top" />
-            <div class="card-body text-center">
-              <h5 class="card-title">Painting</h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Architecto consequatur eos quo ipsam velit voluptas,
-                consectetur vitae laborum minima repellendus!
-              </p>
-              <a class="btn btn-danger" href="#contact">Contact Now</a>
+            <div class="front">
+              <img loading="lazy" src="images/header-slider/painting-header.webp" alt="" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title text-center">Painting</h5>
+              </div>
+              <div class="text-center">
+                <a href="#contact" class="btn btn-outline-danger">
+                  <span class="button__text contact-text">Contact Now</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                  </span></a>
+                <button class="btn btn-front">
+                  <span class="button__text">Learn More</span>
+                  <span class="button__icon">
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="back">              
+              <div class="text-center"><button class="btn-back btn btn-success"><i class="fa-solid fa-circle-left"></i> Back </button></div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- -------------------About Us Section----------------------- -->
+  <!--
+    ====================
+        About Us
+    ====================  
+  -->
   <section class="about-us mb-4" id="about">
-    <h2 class="text-center">About <span>Us</span></h2>
+    <h2 class="text-center mt-5">About <span>Us</span></h2>
     <span class="section-separator"></span>
     <div class="container">
       <div class="accordion" id="accordionExample">
@@ -443,7 +787,11 @@
       </div>
     </div>
   </section>
-  <!-- Contact Us Section -->
+  <!--
+    ====================
+        Contact Us
+    ====================  
+  -->
   <section class="contact-us" id="contact">
     <h2 class="text-center">Contact <span>Us</span></h2>
     <span class="section-separator"></span>
@@ -470,19 +818,21 @@
               <div class="email">housingservices07@gmail.com</div>
             </div>
             <div class="now-icons">
-            <div class="btn btn-outline-primary">
-              <a href="tel:6289108116" class="phone-rohit">Call Now:<i class="fas fa-phone-alt"></i></a>
+              <div class="btn btn-outline-primary">
+                <a href="tel:6289108116" class="phone-rohit">Call Now:<i class="fas fa-phone-alt"></i></a>
+              </div>
+              <div class="btn btn-outline-success">
+                <a href="https://wa.me/916289108116" target="_blank">Whatsapp Now:<i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
             </div>
-            <div class="btn btn-outline-success">
-              <a href="https://wa.me/916289108116" target="_blank">Whatsapp Now:<i class="fab fa-whatsapp"></i>
-              </a>
-            </div>
-          </div>
           </div>
         </div>
         <div class="col-md-6 contact-us-container">
           <div class="form text-center">Have any Enquiry? Message Us</div>
-          <form class="row g-3" action="https://formsubmit.co/gautamraj996@gmail.com" method="POST">
+          <form class="row g-3" target="_blank" action="https://formsubmit.co/housingservices07@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://indianhousingservices.vercel.app//thanks.html">
+            <input type="hidden" name="_captcha" value="false">
             <div class="col-12">
               <label for="fullName" class="form-label">Full Name</label>
               <input type="text" class="form-control" name="fullName" id="fullName" placeholder="Ajay Verma" required />
@@ -506,281 +856,401 @@
               <button type="submit" class="btn btn-danger">Submit</button>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
+    <h2 class="text-center mt-5">We are <span>Here</span></h2>
+    <span class="section-separator"></span>
+    <div class="container d-flex address-container">
+      <div class="address-details-container">
+        <div class="text-center"><i class="fa-solid fa-1"></i></div>
+        <p class="address-details">Indian Housing Services, 30 Feet Main Rd, Ram Nagar, Krishnanagar, Kolkata, West Bengal 700154</p>
+      </div>
+      <div class="map-details">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.2864993078338!2d88.34984901730618!3d22.455865602633782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02713f6c0e3371%3A0x5d5cab93249e473b!2sSharma%20infinity%20educational%20classes!5e0!3m2!1sen!2sin!4v1657524061397!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
 
-        </div>
-      </div>
     </div>
-    <div class="col-12 text-center">
-      <div class="container">
-        <div class="address-details">
-          <p class="address-title">We're Here</p>
-          <p class="address-details">Indian Housing Services, Beltala Motor Vehicles, Near Lansdowne Market, 700025</p>
-        </div>
+    <div class="container d-flex address-container">
+      <div class="address-details-container">
+        <div class="text-center"><i class="fa-solid fa-2"></i></div>
+        <p class="address-details">Indian Housing Services, Beltala Motor Vehicles, Near Lansdowne Market, 700025</p>
       </div>
-      <div class="container">
-        <iframe loading="lazy"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d460.66561409121675!2d88.35292753026171!3d22.529498400363053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277b2af3c12d9%3A0xd85780c60c0f5b7e!2sBeltala%20Motor%20Vehicle%20*2APAL%20XEROX*2A!5e0!3m2!1sen!2sin!4v1653032735214!5m2!1sen!2sin"
-          width="100%" height="200px" style="border: 0" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="map-details">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.34444752803!2d88.3505780644332!3d22.528766240256942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02773aae140cc1%3A0xa5ac0c034cec93ec!2sLansdown%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1657524795826!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
+
     </div>
+    
   </section>
-  <!-- Gallery -->
-  <section class="gallery">
+
+  <!--
+    ====================
+        Gallery
+    ====================  
+  -->
+  <section class="gallery" id="gallery">
     <h2 class="text-center">Gall<span>ery</span></h2>
     <span class="section-separator"></span>
     <div class="container gallery-box">
       <div class="img-container">
-        <a href="images/1.jpg" data-lightbox="models" data-title="Caption1">
-          <img loading="lazy" src="images/1.jpg" alt="" />
+        <a href="images/gallery/1.jpeg" data-lightbox="models" data-title="Caption1">
+          <img loading="lazy" src="images/gallery/1.jpeg" alt="" />
         </a>
       </div>
       <div class="img-container">
-        <a href="images/2.jpg" data-lightbox="models" data-title="Caption2">
-          <img loading="lazy" src="images/2.jpg" alt="" />
+        <a href="images/gallery/2.jpeg" data-lightbox="models" data-title="Caption2">
+          <img loading="lazy" src="images/gallery/2.jpeg" alt="" />
         </a>
       </div>
       <div class="img-container">
-        <a href="images/3.jpg" data-lightbox="models" data-title="Caption3">
-          <img loading="lazy" src="images/3.jpg" alt="" />
+        <a href="images/gallery/3.jpeg" data-lightbox="models" data-title="Caption3">
+          <img loading="lazy" src="images/gallery/3.jpeg" alt="" />
         </a>
       </div>
       <div class="img-container">
-        <a href="images/4.jpg" data-lightbox="models" data-title="Caption4">
-          <img loading="lazy" src="images/4.jpg" alt="" />
+        <a href="images/gallery/4.jpeg" data-lightbox="models" data-title="Caption4">
+          <img loading="lazy" src="images/gallery/4.jpeg" alt="" />
         </a>
       </div>
       <div class="img-container">
-        <a href="images/5.jpg" data-lightbox="models" data-title="Caption5">
-          <img loading="lazy" src="images/5.jpg" alt="" />
+        <a href="images/gallery/5.jpeg" data-lightbox="models" data-title="Caption5">
+          <img loading="lazy" src="images/gallery/5.jpeg" alt="" />
         </a>
       </div>
       <div class="img-container">
-        <a href="images/6.jpg" data-lightbox="models" data-title="Caption6">
-          <img loading="lazy" src="images/6.jpg" alt="" />
+        <a href="images/gallery/6.jpeg" data-lightbox="models" data-title="Caption6">
+          <img loading="lazy" src="images/gallery/6.jpeg" alt="" />
         </a>
       </div>
       <div class="img-container">
-        <a href="images/7.jpg" data-lightbox="models" data-title="Caption7">
-          <img loading="lazy" src="images/7.jpg" alt="" />
+        <a href="images/gallery/7.jpeg" data-lightbox="models" data-title="Caption7">
+          <img loading="lazy" src="images/gallery/7.jpeg" alt="" />
         </a>
       </div>
       <div class="img-container">
-        <a href="images/8.jpg" data-lightbox="models" data-title="Caption8">
-          <img loading="lazy" src="images/8.jpg" alt="" />
+        <a href="images/gallery/8.jpeg" data-lightbox="models" data-title="Caption8">
+          <img loading="lazy" src="images/gallery/8.jpeg" alt="" />
         </a>
       </div>
       <div class="img-container">
-        <a href="images/9.jpg" data-lightbox="models" data-title="Caption9">
-          <img loading="lazy" src="images/9.jpg" alt="" />
+        <a href="images/gallery/9.jpeg" data-lightbox="models" data-title="Caption9">
+          <img loading="lazy" src="images/gallery/9.jpeg" alt="" />
         </a>
       </div>
       <div class="img-container">
-        <a href="images/10.jpg" data-lightbox="models" data-title="Caption10">
-          <img loading="lazy" src="images/10.jpg" alt="" />
+        <a href="images/gallery/10.jpeg" data-lightbox="models" data-title="Caption10">
+          <img loading="lazy" src="images/gallery/10.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/11.jpeg" data-lightbox="models" data-title="Caption11">
+          <img loading="lazy" src="images/gallery/11.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/12.jpeg" data-lightbox="models" data-title="Caption12">
+          <img loading="lazy" src="images/gallery/12.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/13.jpeg" data-lightbox="models" data-title="Caption13">
+          <img loading="lazy" src="images/gallery/13.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/14.jpeg" data-lightbox="models" data-title="Caption14">
+          <img loading="lazy" src="images/gallery/14.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/15.jpeg" data-lightbox="models" data-title="Caption15">
+          <img loading="lazy" src="images/gallery/15.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/16.jpeg" data-lightbox="models" data-title="Caption16">
+          <img loading="lazy" src="images/gallery/16.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/17.jpeg" data-lightbox="models" data-title="Caption17">
+          <img loading="lazy" src="images/gallery/17.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/18.jpeg" data-lightbox="models" data-title="Caption18">
+          <img loading="lazy" src="images/gallery/18.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/19.jpeg" data-lightbox="models" data-title="Caption19">
+          <img loading="lazy" src="images/gallery/19.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/20.jpeg" data-lightbox="models" data-title="Caption20">
+          <img loading="lazy" src="images/gallery/20.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/21.jpeg" data-lightbox="models" data-title="Caption21">
+          <img loading="lazy" src="images/gallery/21.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/22.jpeg" data-lightbox="models" data-title="Caption22">
+          <img loading="lazy" src="images/gallery/22.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/23.jpeg" data-lightbox="models" data-title="Caption23">
+          <img loading="lazy" src="images/gallery/23.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/24.jpeg" data-lightbox="models" data-title="Caption24">
+          <img loading="lazy" src="images/gallery/24.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/25.jpeg" data-lightbox="models" data-title="Caption25">
+          <img loading="lazy" src="images/gallery/25.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/26.jpeg" data-lightbox="models" data-title="Caption26">
+          <img loading="lazy" src="images/gallery/26.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/27.jpeg" data-lightbox="models" data-title="Caption27">
+          <img loading="lazy" src="images/gallery/27.jpeg" alt="" />
+        </a>
+      </div>
+      <div class="img-container">
+        <a href="images/gallery/28.jpeg" data-lightbox="models" data-title="Caption28">
+          <img loading="lazy" src="images/gallery/28.jpeg" alt="" />
         </a>
       </div>
     </div>
   </section>
-  <!-- Testimonials -->
-  <section class="reviews">
-    <div class="container">
-      <div class="section-title">
-        <h2>Happy<span> Clients</span></h2>
-        <span class="section-separator"></span>
-      </div>
+ <!--
+    ====================
+        Testimonials
+    ====================  
+  -->
+<section class="reviews">
+  <div class="container">
+    <div class="section-title">
+      <h2>Happy<span> Clients</span></h2>
+      <span class="section-separator"></span>
     </div>
-    <div class="testimonials-carousel-wrap">
-      <div class="listing-carousel-button listing-carousel-button-next">
-        <i class="fa fa-caret-right" style="color: #fff"></i>
-      </div>
-      <div class="listing-carousel-button listing-carousel-button-prev">
-        <i class="fa fa-caret-left" style="color: #fff"></i>
-      </div>
-      <div class="testimonials-carousel">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="testi-item">
-                <div class="testi-avatar">
-                  <img loading="lazy" src="images/pratik-pandey.jpg" />
+  </div>
+  <div class="testimonials-carousel-wrap">
+    <div class="listing-carousel-button listing-carousel-button-next">
+      <i class="fa fa-caret-right" style="color: #fff"></i>
+    </div>
+    <div class="listing-carousel-button listing-carousel-button-prev">
+      <i class="fa fa-caret-left" style="color: #fff"></i>
+    </div>
+    <div class="testimonials-carousel">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!--
+             ====================
+                1st Testimonial
+             ====================  
+          -->
+          <div class="swiper-slide">
+            <div class="testi-item">
+              <div class="testi-avatar">
+                <img loading="lazy" src="images/pratik-pandey.jpg" />
+              </div>
+              <div class="testimonials-text-before">
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="testimonials-text">
+                <div class="listing-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
                 </div>
-                <div class="testimonials-text-before">
-                  <i class="fa fa-quote-right"></i>
-                </div>
-                <div class="testimonials-text">
-                  <div class="listing-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
-                  <a href="#" class="text-link"></a>
-                  <div class="testimonials-avatar">
-                    <h3>John Doe</h3>
-                    <h4>Owner</h4>
-                  </div>
-                </div>
-                <div class="testimonials-text-after">
-                  <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a
+                  type specimen book.
+                </p>
+                <a href="#" class="text-link"></a>
+                <div class="testimonials-avatar">
+                  <h3>Pratik Pandey</h3>
+                  <h4>Customer</h4>
                 </div>
               </div>
-            </div>
-
-            <!--second--->
-            <div class="swiper-slide">
-              <div class="testi-item">
-                <div class="testi-avatar">
-                  <img loading="lazy" src="images/testi-2.jpg" />
-                </div>
-                <div class="testimonials-text-before">
-                  <i class="fa fa-quote-right"></i>
-                </div>
-                <div class="testimonials-text">
-                  <div class="listing-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
-                  <a href="#" class="text-link"></a>
-                  <div class="testimonials-avatar">
-                    <h3>Doe Boe</h3>
-                    <h4>Director</h4>
-                  </div>
-                </div>
-                <div class="testimonials-text-after">
-                  <i class="fa fa-quote-left"></i>
-                </div>
+              <div class="testimonials-text-after">
+                <i class="fa fa-quote-left"></i>
               </div>
             </div>
-            <!--third-->
-
-            <div class="swiper-slide">
-              <div class="testi-item">
-                <div class="testi-avatar">
-                  <img loading="lazy" src="images/testi-3.jpg" />
-                </div>
-                <div class="testimonials-text-before">
-                  <i class="fa fa-quote-right"></i>
-                </div>
-                <div class="testimonials-text">
-                  <div class="listing-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
-                  <a href="#" class="text-link"></a>
-                  <div class="testimonials-avatar">
-                    <h3>Boe Doe</h3>
-                    <h4>Developer</h4>
-                  </div>
-                </div>
-                <div class="testimonials-text-after">
-                  <i class="fa fa-quote-left"></i>
-                </div>
-              </div>
-            </div>
-
-            <!--fourth-->
-            <div class="swiper-slide">
-              <div class="testi-item">
-                <div class="testi-avatar">
-                  <img loading="lazy" src="images/testi-4.jpg" />
-                </div>
-                <div class="testimonials-text-before">
-                  <i class="fa fa-quote-right"></i>
-                </div>
-                <div class="testimonials-text">
-                  <div class="listing-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
-                  <a href="#" class="text-link"></a>
-                  <div class="testimonials-avatar">
-                    <h3>Doe John</h3>
-                    <h4>Designer</h4>
-                  </div>
-                </div>
-                <div class="testimonials-text-after">
-                  <i class="fa fa-quote-left"></i>
-                </div>
-              </div>
-            </div>
-            <!--testi end-->
           </div>
+
+          <!--
+             ====================
+                2nd Testimonial
+             ====================  
+          -->
+          <div class="swiper-slide">
+            <div class="testi-item">
+              <div class="testi-avatar">
+                <img loading="lazy" src="images/avi-anmol.jpg" />
+              </div>
+              <div class="testimonials-text-before">
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="testimonials-text">
+                <div class="listing-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a
+                  type specimen book.
+                </p>
+                <a href="#" class="text-link"></a>
+                <div class="testimonials-avatar">
+                  <h3>Avi Anmol</h3>
+                  <h4>Customer</h4>
+                </div>
+              </div>
+              <div class="testimonials-text-after">
+                <i class="fa fa-quote-left"></i>
+              </div>
+            </div>
+          </div>
+          <!--
+             ====================
+                3rd Testimonial
+             ====================  
+          -->
+
+          <div class="swiper-slide">
+            <div class="testi-item">
+              <div class="testi-avatar">
+                <img loading="lazy" src="images/brajesh-verma.jpg" />
+              </div>
+              <div class="testimonials-text-before">
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="testimonials-text">
+                <div class="listing-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a
+                  type specimen book.
+                </p>
+                <a href="#" class="text-link"></a>
+                <div class="testimonials-avatar">
+                  <h3>Brajesh Verma</h3>
+                  <h4>Customer</h4>
+                </div>
+              </div>
+              <div class="testimonials-text-after">
+                <i class="fa fa-quote-left"></i>
+              </div>
+            </div>
+          </div>
+
+          <!--
+             ====================
+                4th Testimonial
+             ====================  
+          -->
+          <div class="swiper-slide">
+            <div class="testi-item">
+              <div class="testi-avatar">
+                <img loading="lazy" src="images/sarthak-singh.png" />
+              </div>
+              <div class="testimonials-text-before">
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="testimonials-text">
+                <div class="listing-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a
+                  type specimen book.
+                </p>
+                <a href="#" class="text-link"></a>
+                <div class="testimonials-avatar">
+                  <h3>Sarthak Singh</h3>
+                  <h4>Customer</h4>
+                </div>
+              </div>
+              <div class="testimonials-text-after">
+                <i class="fa fa-quote-left"></i>
+              </div>
+            </div>
+          </div>
+          <!--testi end-->
         </div>
       </div>
-
-      <div class="tc-pagination"></div>
     </div>
-  </section>
-  <footer>
-    <div>Indian Housing Services</div>
-  </footer>
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.5/swiper-bundle.min.js"
-    integrity="sha512-ox3xCWNzq3G1a72+HsDsfYmcw2p7B+P3R8B33pjMQnxw3mEIc/oSuU0Is6Ti+KpKQcWoWVuYV2KhAJBYP+qhsw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
-  <script src="js/lightbox-plus-jquery.js"></script>
+
+    <div class="tc-pagination text-center"></div>
+  </div>
+</section>
+
+<footer>
+  <div>Indian Housing Services</div>
+</footer>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
   <script src="js/script.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 300,
-      duration: 400,
-    });
-  </script>
-  <script>
-    var loader = document.getElementById("preloader");
-    window.addEventListener("load", function () {
-      loader.style.display = "none";
-    });
-  </script>
+
+    <!--
+      ====================
+          Bootstrap
+          Js Bundle 
+          with popper
+      ====================  
+     -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+      <!--
+         ====================
+             Lightbox js
+         ==================== 
+      -->
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 
 </html>
